@@ -57,10 +57,10 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-job-application-agent.git
-cd ai-job-application-agent
+cd job-application-agent
+```
 
-
-## Why This Project Matters
+## Why this matters
 This project demonstrates how agentic AI systems can be applied to real-world workflows. 
 Instead of a single prompt, the system uses a multi-step process to analyze, generate, 
 and iteratively refine outputs using contextual data from both resumes and job descriptions.
