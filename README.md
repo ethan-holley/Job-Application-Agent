@@ -53,11 +53,16 @@ A user uploads their resume and pastes a software engineering job description. T
 
 ## Installation
 
+Install Dependencies: pip3 install streamlit openai pypdf
+
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-job-application-agent.git
-cd job-application-agent
+git clone https://github.com/ethan-holley/Job-Application-Agent.git
+cd Job-Application-Agent
+pip3 install streamlit openai pypdf
+export OPENAI_API_KEY="your_api_key_here"
+python3 -m streamlit run app.py
 ```
 
 ## Why this matters
